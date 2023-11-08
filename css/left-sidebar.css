@@ -1,0 +1,100 @@
+.leftside-content{
+
+  max-width: 330px;
+  background-color: white;
+  padding-left: 10px;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 13fr 13fr 1fr;
+  align-items: start;
+}
+
+.nav-list-container{
+  display: grid;
+  grid-template-rows: repeat(5,1fr);
+  
+  row-gap: 10px;
+}
+
+.twitter-logo{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+
+li{
+  display: flex;
+}
+
+.icon-list-container{
+ max-width: 1.625rem;
+ max-height: 1.625rem;
+}
+
+.nav-list-container{
+  display: grid;
+  grid-template-rows: repeat(5,1fr);
+  
+  row-gap: 10px;
+}
+
+li{
+  display: flex;
+}
+
+.icon-list-container{
+
+ max-width: 1.625rem;
+ max-height: 1.625rem;
+ object-fit: contain;
+
+
+}
+.logo-container{
+max-width: 3rem;
+max-height: 3rem;
+}
+
+.logo{
+  max-width: 100%;
+  max-height: 100%;
+  cursor: pointer;
+}
+
+.nav-button{
+  margin-top: 1.2rem;
+  
+  max-width: 14.56rem;
+  padding: 0.75rem 3.75rem;
+  border-radius: 1.87rem;
+  border: none;
+  background-color: rgb(29, 155, 240);
+  color: white;
+
+}
+
+.nav-button:hover{
+  
+  background-color: rgb(23, 139, 216);
+}
+
+.nav-logout{
+  display: flex;
+  margin: 9px 0px;
+
+  .logout-logo-container{
+    max-width: 2.5rem;
+
+    .nav-logout-logo{
+      width: 100%;
+      border-radius: 1.25rem;
+    }
+
+  }
+ 
+  .logout-info-container{
+    margin-left: 10px;
+  }
+}
+

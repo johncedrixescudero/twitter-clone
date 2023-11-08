@@ -1,10 +1,25 @@
-ul,li,nav{
+ul,li,nav,p{
   list-style: none;
   margin: 0;
   padding: 0;
+  
 }
 
 li{
-  display: flex;
-  align-items: center;
+  max-height: 48px;
+  
+
+}
+
+li:hover{
+  background-color: rgb(226, 226, 226);
+
+}
+
+a{
+  font-size: 1rem;
+  margin-top: 8px;
+  margin-left: 0.9rem;
+  color: rgb(15, 20, 25);
+  text-decoration: none;
 }
