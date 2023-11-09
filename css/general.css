@@ -23,3 +23,7 @@ a{
   color: rgb(15, 20, 25);
   text-decoration: none;
 }
+
+button{
+  background-color: white;
+}
