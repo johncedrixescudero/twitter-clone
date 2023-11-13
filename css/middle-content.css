@@ -52,14 +52,50 @@
 
 .top-item-container{
   display: flex;
-  flex-direction: column;
+}
 
-    .profile-container{
-      flex: 1;
+.profile-container{
+  flex: 1;
+  max-width: 2.5rem;
+  margin-right: 1.2rem;
+}
 
-    }
+.input-profile{
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  width: 100%;
+  border-radius: 50%;
+}
 
-    .input-container{
-      flex:9;
-    }
+.input-container{
+  flex:2;
+}
+
+.post-input{
+  border: none;
+  outline: none;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+
+.post-audience-button{
+  border: none;
+  outline: none;
+  color: rgb(29, 155, 240);
+}
+
+.post-iconlist-container{
+  
+  border-top: 1px solid rgb(215, 215, 215);
+  border-bottom: 1px solid rgb(215, 215, 215);
+  margin-top: 1rem;
+}
+
+.icon-flex{
+  display: flex
+}
+
+.icon-flex li{
+  margin-left: 0.8rem;
 }

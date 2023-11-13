@@ -1,0 +1,11 @@
+.rightside-content{
+  display: grid;
+  grid-template-rows: 1fr 2fr 10fr 3fr 1fr;
+  background-color: white;
+}
+
+.search-flex{
+  display: flex;
+ 
+}
+
