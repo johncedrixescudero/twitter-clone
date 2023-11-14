@@ -18,17 +18,19 @@
 }
 
 .middle-content-icon-container{
-  width: 2.12rem;
+  width: 2.48rem;
   align-self: center;
 }
+
+.middle-content-icon-container svg{
+  fill: black;
+}
+
 
 .top-nav-button{
   width: 100%;
   height: 100%;
   border: none;
- 
-  
-
 }
 
 .settings-button{
@@ -80,10 +82,13 @@
 
 
 .post-audience-button{
+  max-width: 150px;
   border: none;
   outline: none;
   color: rgb(29, 155, 240);
+
 }
+
 
 .post-iconlist-container{
   
@@ -98,4 +103,18 @@
 
 .icon-flex li{
   margin-left: 0.8rem;
+}
+
+.audience-icon{
+  max-width: 16px;
+  max-height: 16px;
+  
+  fill: rgb(29, 155, 240);
+ 
+}
+.post-icon{
+  width: 100%;
+  height: 100%;
+ vertical-align: bottom;
+  fill: rgb(29, 155, 240);
 }
