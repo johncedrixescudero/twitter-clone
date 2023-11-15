@@ -1,6 +1,6 @@
 .middle-content{
   display: grid;
-  grid-template-rows: 1fr 6fr 15fr;
+  grid-template-rows: 1fr 3fr 1fr 15fr;
   background-color: white
 }
 
@@ -50,22 +50,30 @@
 
 .post-flex-container{
   display: flex;
+  border-bottom: 1px solid rgb(215, 215, 215);
+  
+
 }
 
 .top-item-container{
   display: flex;
+  
 }
 
 .profile-container{
-  flex: 1;
   max-width: 2.5rem;
   margin-right: 1.2rem;
+}
+
+.post-container{
+  flex:1;
 }
 
 .input-profile{
   margin-top: 0.5rem;
   margin-left: 0.5rem;
-  width: 100%;
+  min-width: 2rem;
+  max-width: 100%;
   border-radius: 50%;
 }
 
@@ -97,22 +105,51 @@
 .post-iconlist-item{
   
   border-top: 1px solid rgb(215, 215, 215);
-  border-bottom: 1px solid rgb(215, 215, 215);
+ 
   margin-top: 1rem;
+  display: flex;
+  align-items: center;
+
+
+  
 }
 
+
 .icon-flex{
-  display: flex
+  display: flex;
+  min-width: 26.5rem;
 }
 
 .icon-flex li{
   margin-left: 0.8rem;
 }
 
-
 .post-icon{
   width: 100%;
   height: 100%;
  vertical-align: bottom;
   fill: rgb(29, 155, 240);
+}
+
+.post-button{
+margin: 0.5rem 0rem;
+  max-width: 14.56rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1.87rem;
+  border: none;
+  background-color: rgb(29, 155, 240);
+  color: white;
+}
+
+
+.bottom-item-container{
+ justify-self: stretch;
+
+ padding: 0.7rem 0rem;
+ color: rgb(29, 155, 240);
+ border-bottom: 1px solid rgb(215, 215, 215);
+ display: flex;
+ justify-content: center;
+ 
+
 }
