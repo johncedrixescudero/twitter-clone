@@ -23,7 +23,8 @@
 
 
 
-li{
+.leftside-content li{
+  max-height: 48px;
   display: flex;
 }
 

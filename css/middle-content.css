@@ -154,7 +154,14 @@ margin: 0.5rem 0rem;
 
 .timeline{
   display: flex;
- 
+}
+
+.timeline:hover{
+  background-color: rgb(247, 247, 247);
+}
+
+.timeline:hover button{
+  background-color: rgb(247, 247, 247);
 }
 
 .info-container-grid{
@@ -203,26 +210,59 @@ border-radius: 1rem;
   
 }
 
+
 .bottom__info__flex{
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-.bottom__icon{
-  max-width: 1.1rem;
-  max-height: 1.1rem;
+.bottom__container-blue:hover, .bottom__container-blue:hover span{
+  fill: rgb(29, 155, 240);
+  background-color: initial;
+  color: rgb(29, 155, 240);
 }
+
+
+
+.bottom__container-green:hover, .bottom__container-green:hover span{
+  fill: rgb(0, 186, 124);
+  background-color: initial;
+  color: rgb(0, 186, 124);;
+}
+
+.bottom__container-red:hover, .bottom__container-red:hover span{
+  fill: rgb(249, 24, 128);
+  background-color: initial;
+  color: rgb(249, 24, 128);;
+}
+
+.bottom__info__flex img{
+  max-width: 1.2rem;
+  max-height: 1.2rem;
+}
+
+
+
+.bottom__right__column{
+  margin-right: 1.2rem;
+}
+
 
 .bottom__button{
   margin-top: 0.5rem;
   border: none;
   border-style: none;
-  margin-right: 2rem;
+  max-width: 2rem;
+  white-space: nowrap;
+  border-radius: 1rem;
+  
 }
 
-.bottom__button2{
-  margin-top: 0.5rem;
-  border: none;
-  border-style: none;
-  margin-right: 2rem;
+.bottom__button svg{
+ width: 100%;
+ height: 100%;
 }
+
+
+

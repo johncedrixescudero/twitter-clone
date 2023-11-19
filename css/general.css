@@ -6,9 +6,9 @@ ul,li,nav,p{
 }
 
 li{
-  max-height: 48px;
+ 
+  display: inline-block;
   
-
 }
 
 li:hover{
@@ -26,4 +26,7 @@ a{
 
 button{
   background-color: white;
+
 }
+
+
