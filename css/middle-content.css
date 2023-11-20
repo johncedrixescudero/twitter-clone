@@ -1,6 +1,6 @@
 .middle-content{
   display: grid;  
-  grid-template-rows: 1fr 3fr 1fr 15fr;
+  grid-template-rows: minmax(auto, 3.5rem ) minmax(auto, 8rem) minmax(auto, 2.7rem) minmax(auto, 23.7rem);
   background-color: white
 }
 
@@ -166,7 +166,7 @@ margin: 0.5rem 0rem;
 
 .info-container-grid{
   display: grid;
-  grid-template-rows: 1fr 5fr 5fr;
+  grid-template-rows: minmax(auto, 2.5rem ) minmax(auto, 19.5rem ) minmax(auto, 1rem );
 }
 
 .top-info-container{
@@ -204,6 +204,7 @@ border-radius: 1rem;
 
 
 .bottom__info-flex{
+  margin-top: -0.3rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -242,10 +243,9 @@ border-radius: 1rem;
 
 
 .bottom__button{
-  margin-top: 0.5rem;
   border: none;
   border-style: none;
-  max-width: 2rem;
+  max-width: 1.3rem;
   white-space: nowrap;
   border-radius: 1rem;
   
