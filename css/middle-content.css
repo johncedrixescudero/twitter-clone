@@ -1,5 +1,5 @@
 .middle-content{
-  display: grid;
+  display: grid;  
   grid-template-rows: 1fr 3fr 1fr 15fr;
   background-color: white
 }
@@ -179,9 +179,6 @@ margin: 0.5rem 0rem;
 flex: 1;
 }
 
-.more-icon-container{
-
-}
 
 .top-info-icon{
   max-width: 1rem;
@@ -199,19 +196,14 @@ flex: 1;
   margin-right: 1rem;
 }
 
-
-
-
 .middle_logo{
 border-radius: 1rem;
  width: 100%;
  height: 100%;
-
-  
 }
 
 
-.bottom__info__flex{
+.bottom__info-flex{
   display: flex;
   align-items: center;
   justify-content: space-between;
