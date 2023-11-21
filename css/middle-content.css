@@ -262,6 +262,7 @@ border-radius: 1rem;
 
 
 .bottom__button{
+  margin-top: 1rem;
   border: none;
   border-style: none;
   max-width: 1.3rem;
