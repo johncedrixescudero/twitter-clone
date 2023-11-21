@@ -6,13 +6,15 @@
   background-color: white;
   justify-content: center;
   align-items: center;
+ 
+  
   
 }
 
 .search-flex{
   display: flex;
   align-items: center;
-
+ 
 }
 
 .search__button{

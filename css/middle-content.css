@@ -1,55 +1,68 @@
-.middle-content{
-  position: absolute;
-  left: 341px;
-  display: grid;  
-  grid-template-rows: minmax(auto, 3.5rem ) minmax(auto, 8rem) minmax(auto, 2.7rem) 1fr;
-  background-color: white;
-  border-right: 1px solid rgb(215, 215, 215);
-}
 
-.top-nav-flex{
+.header1{
+  position: fixed;
+  left: 341px;
+  width: 36.7rem;
+  height: 3.5rem;
+  background-color: white;
   display: flex;
   border-bottom: 1px solid rgb(215, 215, 215);
- 
-
+  border-right: 1px solid rgb(215, 215, 215);
+  opacity: 0.94;
+  z-index: 100;
+  
 }
 
-.top-nav-item-container{
+.header1__nav-container{
   flex: 1;
   min-width: 130px;
  
 }
 
-.middle-content-icon-container{
-  width: 2.48rem;
-  align-self: center;
-}
-
-.middle-content-icon-container svg{
-  fill: black;
-}
-
-
-.top-nav-button{
+.header1__nav-button{
   width: 100%;
   height: 100%;
   border: none;
 }
 
-.settings-button{
+.header1__icon-container{
+  width: 2.48rem;
+  align-self: center;
+}
+
+.header1__settings-button{
   border: none;
-  border-radius: 1.6rem;
+  border-radius: 50%;
   margin-right: 0.42rem;
-
+  width: 1.7rem;
+  padding: 0.2rem 0.2rem;
+ 
 }
 
-.settings-button:hover{
+.header1__nav-button:hover,.header1__settings-button:hover{
   background-color: rgb(215, 215, 215);
 }
 
-.top-nav-button:hover{
-  background-color: rgb(215, 215, 215);
+
+
+
+
+
+.middle-content{
+  position: absolute;
+  top:57px;
+  left: 341px;
+  display: grid;  
+  background-color: white;
+  border-right: 1px solid rgb(215, 215, 215);
 }
+
+
+
+
+
+
+
 
 .post-flex-container{
   display: flex;
