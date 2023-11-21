@@ -1,6 +1,6 @@
 .rightside-content{
   display: grid;
-  grid-template-rows: minmax(2.5rem, 3rem) minmax(11rem, 13rem) 1fr minmax(19rem, 20rem) 1fr;
+  grid-template-rows: minmax(2.5rem, 3rem) minmax(8rem, 13rem) minmax(52.5rem,54.5rem) minmax(17rem, 17rem) minmax(1rem,5rem);
   background-color: white;
   justify-content: center;
   align-items: center;
@@ -168,4 +168,21 @@ border-radius: 50%;
 
 .who__show-more{
   color:rgb(29, 155, 240);
+}
+
+
+
+.footer-container{
+  
+  max-width: 21rem;
+  
+}
+
+.footer-container a,span{
+  color: rgb(95, 91, 91);
+}
+
+.footer__link1:hover,.footer__link2:hover,.footer__link3:hover,
+.footer__link4:hover,.footer__link5:hover,.footer__link6:hover {
+  text-decoration: underline;
 }
