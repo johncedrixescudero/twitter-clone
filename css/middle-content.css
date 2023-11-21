@@ -1,6 +1,6 @@
 .middle-content{
   display: grid;  
-  grid-template-rows: minmax(auto, 3.5rem ) minmax(auto, 8rem) minmax(auto, 2.7rem) minmax(auto, 23.7rem);
+  grid-template-rows: minmax(auto, 3.5rem ) minmax(auto, 8rem) minmax(auto, 2.7rem) 1fr;
   background-color: white
 }
 
@@ -154,6 +154,8 @@ margin: 0.5rem 0rem;
 
 .timeline{
   display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem ;
 }
 
 .timeline:hover{
@@ -172,11 +174,12 @@ margin: 0.5rem 0rem;
 .top-info-container{
   display: flex;
   align-items: center;
-  white-space: nowrap;
+  white-space: wrap;
+ 
 }
 
 .profile-info-container{
-flex: 1;
+
 }
 
 
