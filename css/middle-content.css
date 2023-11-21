@@ -1,7 +1,10 @@
 .middle-content{
+  position: absolute;
+  left: 341px;
   display: grid;  
   grid-template-rows: minmax(auto, 3.5rem ) minmax(auto, 8rem) minmax(auto, 2.7rem) 1fr;
-  background-color: white
+  background-color: white;
+  border-right: 1px solid rgb(215, 215, 215);
 }
 
 .top-nav-flex{
@@ -174,7 +177,7 @@ margin: 0.5rem 0rem;
 .top-info-container{
   display: flex;
   align-items: center;
-  white-space: wrap;
+  white-space: nowrap;
  
 }
 

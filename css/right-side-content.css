@@ -1,9 +1,12 @@
 .rightside-content{
+  position: absolute;
+  left:990px;
   display: grid;
   grid-template-rows: minmax(2.5rem, 3rem) minmax(8rem, 13rem) minmax(52.5rem,54.5rem) minmax(17rem, 17rem) minmax(1rem,5rem);
   background-color: white;
   justify-content: center;
   align-items: center;
+  
 }
 
 .search-flex{
