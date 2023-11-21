@@ -1,6 +1,6 @@
 .rightside-content{
   display: grid;
-  grid-template-rows: minmax(2.5rem, 3rem) minmax(11rem, 13rem) 1fr 1fr 1fr;
+  grid-template-rows: minmax(2.5rem, 3rem) minmax(11rem, 13rem) 1fr minmax(19rem, 20rem) 1fr;
   background-color: white;
   justify-content: center;
   align-items: center;
@@ -109,5 +109,63 @@ border-radius: 50%;
 .trend__showmore{
   margin-top: 1rem;
   margin-left: -0.8rem;
+}
+
+.trend__showmore a{
+  color:rgb(29, 155, 240);
+}
+
+.who-to-follow{
+
+  background-color: rgb(240, 240, 240);
+}
+
+.who__container{
+  margin: 0.8rem;
+  display: grid;
+  grid-template-rows: minmax(1rem, 2rem ) 1fr 1.5rem ;
+  gap: 1rem;
+}
+
+.who__mid{
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.who__mid-container{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.who__left-column{
+  display: flex;
+  flex-direction: row;
+}
+
+.who__logo-container{
+
+  max-width: 2.5rem;
+}
+
+.who__logo{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.who__info-container{
+  margin-left: 0.6rem;
+}
+
+.who__button{
+  padding: 0.5rem 1.1rem;
+  color: white;
+  background-color: black;
+  border-style: none;
+  border-radius: 0.9rem;
+}
+
+.who__show-more{
   color:rgb(29, 155, 240);
 }
