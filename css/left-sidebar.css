@@ -1,11 +1,9 @@
-.leftside-content{
+.sidebar{
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
   
-  
- 
   min-width: 330px;
   max-width: 330px;
   background-color: white;
@@ -19,26 +17,21 @@
 }
 
 
-.logo-container{
+.sidebar__logo-container{
   max-width: 2rem;
   max-height: 2rem;
   
   margin-bottom: 2rem;
-
-
   }
   
 
-  .logo-container :hover{
-    background-color: rgb(226, 226, 226);
-    border-radius: 1rem;
-    
-    
+.sidebar__logo-container :hover{
+  background-color: rgb(226, 226, 226);
+  border-radius: 1rem;
+}
+
   
-    }
-  
-  
-.leftside__twitter-logo{
+.sidebar__twitter-logo{
   height: 100%;
   width: 100%;
 
@@ -47,56 +40,41 @@
 
 
 
-.nav-list-container li{
+.sidebar__list-container li{
  
  display: flex;
  align-items: center;
  min-height: 2rem;
 }
 
-.nav-list-container:hover li{
+.sidebar__list-container:hover li{
  
   border-radius: 1rem;
   transition: 0.2s;
 
  }
 
-.nav-list-container a{
- 
+.sidebar__list-container a{
  margin-left: 1rem;
- font-size: 1.4rem;
- 
+ font-size: 1.4rem; 
  }
-.icon-list-container{
- max-width: 1.625rem;
- max-height: 1.625rem;
-}
 
-.nav-list-container{
+ .sidebar__list-container{
   display: grid;
   row-gap: 20px;
 }
 
-li{
-  display: flex;
-}
 
-.icon-list-container{
+.sidebar__icon-list-container{
 
  max-width: 1.625rem;
  max-height: 1.625rem;
- object-fit: contain;
 
 
 }
 
-.logo{
-  max-width: 100%;
-  max-height: 100%;
-  cursor: pointer;
-}
 
-.nav-button{
+.sidebar__button{
   margin-top: 1.2rem;
 
   padding: 1rem 6rem;
@@ -107,53 +85,52 @@ li{
 
 }
 
-.nav-button:hover{
+.sidebar__button:hover{
   
   background-color: rgb(23, 139, 216);
   transition: 0.2s;
 }
 
-.nav-logout{
-  display: flex;
-  
-  
-  
 
 
+
+.sidebar__logout-container{
+  padding: 0.5rem 0.2rem;
+  align-self: end;
+  margin-top: -1rem;
+}
+
+.sidebar__logout-container:hover{
+  background-color: rgb(226, 226, 226);
+  border-radius: 2rem;
+  transition: 0.2s;
 }
 
 
+.sidebar__logout{
+  display: flex;
 
-.logout-logo-container{
+}
+
+.sidebar__logout-logo-container{
   max-width: 2.5rem;
 
 }
 
 
 
-.nav-logout-logo{
+.sidebar__nav-logout-logo{
   width: 100%;
   border-radius: 1.25rem;
 }
 
 
-.logout-info-container{
+.sidebar__logout-info-container{
   margin-left: 10px;
 }
 
-.leftside__logout-container{
-  padding: 0.5rem 0.2rem;
-  align-self: end;
-  margin-top: -1rem;
-}
 
-.leftside__logout-container:hover{
-  background-color: rgb(226, 226, 226);
-  border-radius: 2rem;
-  transition: 0.2s;
-}
-
-.leftside__logout-icon{
+.sidebar__logout-icon{
   width: 1.2rem;
   height: 1.2rem;
   margin-left: 0.5rem;
