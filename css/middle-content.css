@@ -1,11 +1,11 @@
 
 .header1{
   position: fixed;
+  display: flex;
   left: 341px;
-  width: 36.7rem;
+  min-width: 36.7rem;
   height: 3.5rem;
   background-color: white;
-  display: flex;
   border-bottom: 1px solid rgb(215, 215, 215);
   border-right: 1px solid rgb(215, 215, 215);
   opacity: 0.94;
@@ -64,7 +64,7 @@
 
 
 
-.post-flex-container{
+.profile-and-post-container{
   display: flex;
   border-bottom: 1px solid rgb(215, 215, 215);
   
@@ -81,10 +81,6 @@
   margin-right: 1.2rem;
 }
 
-.post-container{
-  flex:1;
-}
-
 .profile-logo{
   margin-top: 0.5rem;
   margin-left: 0.5rem;
@@ -93,7 +89,15 @@
   border-radius: 50%;
 }
 
-.post-input{
+
+.post-container{
+  flex: 1;
+  display: grid;
+ 
+}
+
+
+.post__input{
   border: none;
   outline: none;
   padding: 0.5rem;
@@ -102,50 +106,53 @@
 
 
 
-.post-audience-button{
+.post__audience-button{
   border: none;
   outline: none;
   color: rgb(29, 155, 240);
   white-space: nowrap;  
 }
 
-.audience-icon{
+.post__audience-icon{
   max-width: 1rem;
   max-height: 1rem;
-  
   fill: rgb(29, 155, 240);
  
 }
 
 
-.post-iconlist-item{
-  
+.post__bottom-container{
   border-top: 1px solid rgb(215, 215, 215);
- 
   margin-top: 1rem;
   display: flex;
   align-items: center;
-
-
-  
+  justify-content: space-between;
 }
 
-
-.icon-flex{
+.post__iconlist-container{
   display: flex;
-  min-width: 26.5rem;
+  min-width: 15rem;
 }
 
-.icon-flex li{
+
+.post__iconlist-container li{
   margin-left: 0.8rem;
 }
 
-.post-icon{
+.post__icon-container{
+  max-width: 1.625rem;
+  max-height: 1.625rem;
+ 
+}
+
+.post__icon{
   width: 100%;
   height: 100%;
  vertical-align: bottom;
   fill: rgb(29, 155, 240);
 }
+
+
 
 .post-button{
 margin: 0.5rem 0rem;
@@ -158,7 +165,7 @@ margin: 0.5rem 0rem;
 }
 
 
-.bottom-item-container{
+.showpost-container{
  justify-self: stretch;
 
  padding: 0.7rem 0rem;
@@ -174,6 +181,18 @@ margin: 0.5rem 0rem;
   margin-bottom: 1.5rem ;
 }
 
+.timeline__profile-container{
+  max-width: 2.5rem;
+  margin-right: 1.2rem;
+}
+
+.timeline__logo{
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  min-width: 2rem;
+  max-width: 100%;
+  border-radius: 50%;
+}
 .timeline:hover{
   background-color: rgb(247, 247, 247);
 }
@@ -182,43 +201,54 @@ margin: 0.5rem 0rem;
   background-color: rgb(247, 247, 247);
 }
 
-.info-container-grid{
+.timeline__info-container{
   display: grid;
-  grid-template-rows: minmax(auto, 2.5rem ) minmax(auto, 19.5rem ) minmax(auto, 1rem );
-}
-
-.top-info-container{
-  display: flex;
-  align-items: center;
-  white-space: nowrap;
  
 }
 
-.profile-info-container{
-
+.timeline__top-info-container{
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: space-between;
+ 
 }
 
-
-.top-info-icon{
+.timeline__more-icon-container{
   max-width: 1rem;
-  max-height: 1rem;
-}
-
-.middle-info-container p{
-
-  margin-bottom: 0.8rem;
-}
-
-.middle_logo_container{
-  max-width: 32rem;
-  max-height: 16rem;
   margin-right: 1rem;
 }
 
-.middle_logo{
-border-radius: 1rem;
+
+.timeline__top-info-icon{
+  width: 1rem; 
+}
+
+
+.timeline__middle-info-container{
+  display: grid ;
+}
+
+
+
+.timeline__middle-info-container p{
+  max-width: 33rem;
+  margin-bottom: 0.8rem;
+}
+
+
+
+.timeline__middle-logo-container{
+  
+  min-width: 16rem;
+  max-width: 32rem;
+  margin-right: 1rem;
+}
+
+.timeline__middle-logo{
+ border-radius: 1rem;
  width: 100%;
- height: 100%;
+
 }
 
 

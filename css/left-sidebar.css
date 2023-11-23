@@ -14,6 +14,7 @@
   gap: 5rem;
   
   border-right: 1px solid rgb(215, 215, 215);
+  overflow-y: auto;
 }
 
 
@@ -135,4 +136,10 @@
   height: 1.2rem;
   margin-left: 0.5rem;
   margin-top: 0.3rem;
+}
+
+.sidebar__logout-name{
+  font-weight: bold; 
+  color: #333;
+
 }
